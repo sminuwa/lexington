@@ -6515,7 +6515,7 @@ body {
       text-align: left;
       text-decoration: none; }
       .menu-mobile .mm-logo-buttons-w .mm-logo img {
-        width: 40px;
+        width: 100px;
         display: inline-block; }
       .menu-mobile .mm-logo-buttons-w .mm-logo span {
         display: inline-block;
@@ -6722,7 +6722,7 @@ body {
         -webkit-transform: translateY(0px);
                 transform: translateY(0px); }
   .menu-side-w .logged-user-menu {
-    background: #0061da;
+    background: #023668;
     box-shadow: 0 2px 30px 0 rgba(45, 130, 255, 0.75);
     position: absolute;
     top: 0px;
@@ -6807,14 +6807,14 @@ body {
       box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); }
   .menu-side-w .logo-w {
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
     .menu-side-w .logo-w a {
       display: inline-block; }
     .menu-side-w .logo-w .logo {
       display: inline-block; }
     .menu-side-w .logo-w img {
-      width: 40px;
+      /* width: 40px; */
       height: auto;
       display: inline-block;
       vertical-align: middle; }
@@ -6844,7 +6844,7 @@ body {
         /* Better Font Rendering =========== */
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        content: "\e91c";
+        content: "\e91c"; 
         font-size: 7px;
         color: rgba(0, 0, 0, 0.5);
         -webkit-transform: translateY(-50%);
@@ -6863,9 +6863,15 @@ body {
             -ms-flex-align: center;
                 align-items: center;
         position: relative; }
+        /*.menu-side-w ul.main-menu > li.active {
+          background-color:#0061da;
+          color:#ffffff; 
+        }*/
         .menu-side-w ul.main-menu > li > a:focus {
           text-decoration: none; }
         .menu-side-w ul.main-menu > li > a:hover {
+          background-color:#023668;
+          color:#ffffff;
           text-decoration: none; }
           @media (min-width: 1025px) {
             .menu-side-w ul.main-menu > li > a:hover .icon-w {
@@ -7765,7 +7771,7 @@ body {
 .box-style, .user-profile, .element-box, .invoice-w, .big-error-w, .activity-boxes-w .activity-box, .projects-list .project-box {
   border-radius: 4px;
   background-color: #fff;
-  box-shadow: 0px 0px 30px rgba(69, 101, 173, 0.1); }
+  box-shadow: 0px 0px 30px rgba(69, 101, 173, 0.21); }
 
 .element-box, .invoice-w, .big-error-w {
   padding: 1.5rem 2rem;
@@ -7793,14 +7799,24 @@ body {
  #2. Tablo Element
 */
 .el-tablo {
+  background:#023668;
+  color:#ffffff; 
   padding-right: 5px; }
   .el-tablo .label {
+    height: 30px;
+    overflow: hidden;
     display: block;
     font-size: 0.63rem;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.4); }
+    
+    /*color: rgba(0, 0, 0, 0.4);*/ }
+    .el-tablo:hover{
+      background:#02203c;
+      -webkit-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+    }
   .el-tablo .value {
-    font-size: 2.43rem;
+    font-size: 1.43rem;
     font-weight: 600;
     font-family: "Proxima Nova W01", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     letter-spacing: -1px;
@@ -10021,7 +10037,7 @@ Contents:
     padding: 40px; }
   .content-panel {
     padding: 2rem;
-    width: 350px; }
+    width: 250px; }
   .content-box {
     padding: 2rem; }
   .all-wrapper {
