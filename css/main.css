@@ -6324,8 +6324,8 @@ body {
     content: "";
     position: absolute;
     z-index: -1;
-    background: -webkit-linear-gradient(top left, #D7BBEA, #65A8F1);
-    background: linear-gradient(to bottom right, #D7BBEA, #65A8F1);
+    background: -webkit-linear-gradient(top left, #36934B, #65A8F1);
+    background: linear-gradient(to bottom right, #36934B, #65A8F1);
     top: 0px;
     left: 0px;
     bottom: 0px;
@@ -8363,7 +8363,7 @@ body {
     padding-left: 80px; }
     .auth-box-w .auth-header:after {
       content: "";
-      background-color: #047bf8;
+      background-color: #009a22;
       width: 32px;
       height: 7px;
       border-radius: 2px;
