@@ -7713,7 +7713,7 @@ body {
     z-index: 1; }
     .element-wrapper .element-header:after {
       content: "";
-      background-color: #047bf8;
+      background-color: #009a22;
       width: 22px;
       height: 6px;
       border-radius: 2px;
@@ -7816,7 +7816,7 @@ body {
       transition: all 0.4s ease;
     }
   .el-tablo .value {
-    font-size: 1.43rem;
+    font-size: 2.43rem;
     font-weight: 600;
     font-family: "Proxima Nova W01", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     letter-spacing: -1px;
@@ -8369,11 +8369,11 @@ body {
     padding-bottom: 10px; }
   .auth-box-w .logo-w {
     text-align: center;
-    padding: 10%; }
+    padding: 6%; }
   .auth-box-w .auth-header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     position: relative;
     z-index: 1;
     padding-left: 80px; }

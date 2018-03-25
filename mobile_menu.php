@@ -17,10 +17,10 @@
               </div>
               <div class="logged-user-info-w">
                 <div class="logged-user-name">
-                  Sunusi Mohd Inuwa
+                  <?php echo $fullname;?>
                 </div>
                 <div class="logged-user-role">
-                  Student
+                  <?php echo $user_type;?>
                 </div>
               </div>
             </div>
